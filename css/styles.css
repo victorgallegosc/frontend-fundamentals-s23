@@ -1,0 +1,27 @@
+.texto h1{
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.promo{
+    align-items: center;
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.texto p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.form button{
+    margin-left: none;
+}
