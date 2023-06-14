@@ -36,3 +36,16 @@
     margin-bottom: 10px;
     margin-top: 110px;
 }
+
+@media (max-width: 575px){
+    body{
+        background-color: aquamarine;
+    }
+    .fixed-header{
+        display: none;
+    }
+    .features{
+        grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+        margin-top: 20px;
+    }
+}
