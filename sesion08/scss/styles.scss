@@ -1,0 +1,23 @@
+.centertext{
+    text-align: center;
+}
+.features{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+.card{
+    img{
+        height: 33%;
+        width: 100%;
+    }
+    p{
+        font-size: small;
+    }
+    h5{
+        transition: color 1s ease-in-out;
+    }
+    h5:hover{
+        color: #67b54b;
+    }
+}
